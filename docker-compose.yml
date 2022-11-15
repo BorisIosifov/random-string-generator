@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  random-string-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: random-string-generator
+    # command: bash -c "./random-string-generator"
